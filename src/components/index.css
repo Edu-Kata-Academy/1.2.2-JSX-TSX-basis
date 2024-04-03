@@ -1,0 +1,17 @@
+.cars {
+  margin: 0 auto;
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  max-width: 80em;
+}
+
+.cars__head {
+  font-weight: 700;
+}
+
+.cars__select {
+  width: 70%;
+  font-size: 0.85rem;
+}
